@@ -106,8 +106,7 @@ server.get("/search", (req, res) => {
     })
 })
 
-var porta = process.env.PORT || 8080;
-app.listen(porta);
+var porta = process.env.PORT || 8080; e isso server.listen(porta, () => console.log('rodando'))
 
 // ligar o servidor
 //server.listen(3000)
