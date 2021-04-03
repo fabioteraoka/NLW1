@@ -106,6 +106,8 @@ server.get("/search", (req, res) => {
     })
 })
 
+var porta = process.env.PORT || 8080;
+app.listen(porta);
 
 // ligar o servidor
 //server.listen(3000)
