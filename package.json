@@ -1,0 +1,20 @@
+{
+  "name": "nlw",
+  "version": "1.0.0",
+  "description": "<h1 align=\"center\">     <img alt=\"Ecoleta\" title=\"Ecoleta\" src=\".github/ecoleta.svg\" width=\"220px\" /> </h1>",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "nodemon src/server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nunjucks": "^3.2.3",
+    "sqlite3": "^5.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "keywords": []
+}
