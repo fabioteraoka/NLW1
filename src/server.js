@@ -105,7 +105,7 @@ server.get("/search", (req, res) => {
         return res.render("search-results.html", { places: rows, total: total})
     })
 })
-
+// comando para colocar o heroku
 var porta = process.env.PORT || 8080;
 server.listen(porta, () => console.log('rodando'));
 
