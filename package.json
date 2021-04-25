@@ -4,7 +4,7 @@
   "description": "<h1 align=\"center\">     <img alt=\"Ecoleta\" title=\"Ecoleta\" src=\".github/ecoleta.svg\" width=\"220px\" /> </h1>",
   "main": "src/server.js",
   "scripts": {
-    "build":"node src/server.js",
+    "build": "npm install",
     "start": "node src/server.js"
   },
   "author": "",
